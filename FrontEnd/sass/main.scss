@@ -1,0 +1,39 @@
+$maincolor: #060329;
+$accent: #038191;
+$accenttwo: #8FD9B9;
+$background: #EBEBEB;
+$final: #C5E610;
+
+html,body{
+	background-color: $background;
+	height: 100%;
+}
+header{
+	background-color: $maincolor;
+	border-bottom: 15px solid $accent;
+	h1{
+		color: $background;
+		margin-left: 60px;
+	}
+}
+.fakeHeader{
+	height: 30px;
+	background-color: $accenttwo;
+	margin-bottom: 10px;
+}
+thead{
+	font-size: 16px;
+}
+// STICKY FOOTER
+section{
+	min-height: 100%;
+	margin-bottom: -20px;
+}
+section:after{
+	content: '';
+	display: block;
+}
+footer{
+	height: 20px;
+	background-color: $final;
+}

@@ -1,0 +1,30 @@
+html, body {
+  background-color: #EBEBEB;
+  height: 100%; }
+
+header {
+  background-color: #060329;
+  border-bottom: 15px solid #038191; }
+  header h1 {
+    color: #EBEBEB;
+    margin-left: 60px; }
+
+.fakeHeader {
+  height: 30px;
+  background-color: #8FD9B9;
+  margin-bottom: 10px; }
+
+thead {
+  font-size: 16px; }
+
+section {
+  min-height: 100%;
+  margin-bottom: -20px; }
+
+section:after {
+  content: '';
+  display: block; }
+
+footer {
+  height: 20px;
+  background-color: #C5E610; }
